@@ -1,7 +1,7 @@
 # HP-Pavilion-x360-14-Hackintosh
 
 
-A repo for installing macOS Ventura on HP Pavilion x360 14 using OpenCore.
+A repo for installing macOS Sonoma on HP Pavilion x360 14 using OpenCore.
 ![](Images/Screenshot.png)
 
 
@@ -18,20 +18,16 @@ A repo for installing macOS Ventura on HP Pavilion x360 14 using OpenCore.
 # Overview 
 
 # What's Working?
-Everything Works 
+Everything Works except for the boot chime (may look more into it)
 
 # What's Not Working?
 Touchscreen (Had to be disabled so fingerprint works good) and Fingerprint
 
 # Bugs
-- ?
+- None found so far!
 
 # BIOS Configuration
-Before doing anything, make sure to update your BIOS to the latest version from [here](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/300-series/320-14ikb/downloads/ds121587), preparing your laptop to macOS, reboot your laptop, when the Lenovo logo appears press <b>F2</b>, when the BIOS menu appears go to: 
-- "Configuration" <b>SATA Controller Mode</b> to <b>AHCI</b>, <b>HotKey Mode</b> to <b>Enabled</b>.
-- "Security" <b>Intel Platform Trust Technology</b> to <b>Disabled</b>, <b>Intel SGX</b> to <b>Disabled</b>, <b>Secure Boot</b> to <b>Disabled</b>.
-- "Boot" <b>Boot Mode</b> to <b>UEFI</b>,<b>Fast Boot</b> to <b>Disabled</b>, <b>USB Boot</b> to <b>Enabled</b>.
-- "Exit" <b>OS Optimized Defaults</b> to <b>Disabled</b>.
+Make sure to disable secure boot and your good to go!
 
 
 # Credits
